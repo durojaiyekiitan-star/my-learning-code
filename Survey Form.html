@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Survey Form</title>
+  </head>
+  <body>
+    <header>
+      <h1>
+        freeCodeCamp Survey Form
+      </h1>
+      <p>
+        Thank you for taking the time to help us improve the platform
+      </p>
+    </header>
+    <main>
+      <form action="">
+        <label for="name-label">Name</label>
+        <input required type="text" id="name-label" name="Name" placeholder="Ex: Durojaiye Bryan">
+        <br>
+
+        <label for="email-label">Email</label>
+        <input required type="email" id="email-label" name="Email" placeholder="Ex: durojaiyekiitan@gmail.com">
+        <br>
+
+        <label for="number-label">Age (optional)</label>
+        <input type="number" id="number-label" name="Age" placeholder="20">
+        <br>
+
+        <p>
+          Which option best describes your current role
+        </p>
+        <select name="Current Role" id="drop-down">
+          <option value="" selected disabled>Select current role</option>
+          <option value="Student">Student</option>
+          <option value="Full Time Job">Full Time Job</option>
+          <option value="Full Time Learner">Full Time Learner</option>
+          <option value="Prefer not to say">Prefer not to say</option>
+          <option value="Other">Other</option>
+        </select>
+
+        <p>
+          Would you recommend freeCodeCamp to a friend?
+        </p>
+        <label for="definitely">Definitely</label>
+        <input type="radio" id="definitely" name="Recommendation">
+
+        <label for="maybe">Maybe</label>
+        <input type="radio" id="maybe" name="Recommendation">
+
+        <label for="not-sure">Not sure</label>
+        <input type="radio" id="not-sure" name="Recommendation">
+
+        <p>
+          What is your favorite feature about freeCodeCamp
+        </p>
+        <select name="" id="">
+        <option value=""></option>
+        <option value=""></option>
+        <option value=""></option>
+        </select>
+      </form>
+    </main>
+  </body>
+</html>

@@ -1,0 +1,10 @@
+WEBVTT
+
+00:00:00.000 --> 00:00:04.000
+Hello everyone! Welcome to my video.
+
+00:00:04.500 --> 00:00:08.000
+In this clip, I’ll show you how to use HTML5 video elements.
+
+00:00:09.000 --> 00:00:12.000
+Don’t forget to like and subscribe!
